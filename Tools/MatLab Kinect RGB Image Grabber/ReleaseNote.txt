@@ -1,0 +1,110 @@
+*****************************************************************************
+		Kinect-MEX Release Note
+*****************************************************************************
+*** Version 1.3
+	* Kinect MEX ver1.3 supports only the following OpenNI and SensorKinect driver
+
+	[Requirements]
+		[OpenNI]
+   		OpenNI Unstable Build for Windows v1.0.0.25
+		* Uploaded : 06 Jan, 2011
+		* http://www.openni.org/downloadfiles/openni-binaries/20-latest-unstable
+   		
+		[SensorKinect]
+		SensorKinect v0.4
+		* Uploaded : 07 Jan, 2011
+		* https://github.com/avin2/SensorKinect
+
+	[New Functions]
+	* Updated mxNICreateCotext to support multiple Kinect
+
+	* Added mxNiEnumerateDevices function
+		* Gets the number of connected Kinect devices.
+
+	* Added mxNiUpdateContext function 
+		* Updates data from Kinect
+		* On previous version before version 1.12, 
+		 when mxNiImage or mxNiIRImage is called, we updated data from Kinect.
+
+	* Added mxNiSetProperty and mxNiGetProperty function
+		* Sets and gets the value of property
+	
+*** Version 1.12 ***
+	* Kinect MEX ver1.12 supports only the following OpenNI and SensorKinect driver
+
+	[Requirements]
+		[OpenNI]
+   		OpenNI Unstable Build for Windows v1.0.0.25
+		* Uploaded : 06 Jan, 2011
+		* http://www.openni.org/downloadfiles/openni-binaries/20-latest-unstable
+   		
+		[SensorKinect]
+		SensorKinect v0.4
+		* Uploaded : 07 Jan, 2011
+		* https://github.com/avin2/SensorKinect
+
+	[New Functions]
+	* Updated mxNiImage to support high resolution images
+
+*** Version 1.11 ***
+	* Kinect MEX ver1.11 supports only the following OpenNI and SensorKinect driver
+
+	[Requirements]
+		[OpenNI]
+   		OpenNI Unstable Build for Windows v1.0.0.25
+		* Uploaded : 06 Jan, 2011
+		* http://www.openni.org/downloadfiles/openni-binaries/20-latest-unstable
+   		
+		[SensorKinect]
+		SensorKinect v0.4
+		* Uploaded : 07 Jan, 2011
+		* https://github.com/avin2/SensorKinect
+
+	[New Functions]
+	* Updated the supported version of OpenNI and SensorKinect
+
+
+*** Version 1.1 ***
+	* Kinect MEX ver1.1 supports only the following OpenNI and SensorKinect driver
+
+	[Requirements]
+		[OpenNI]
+   		OpenNI Alpha Build for Windows v1.0.0.23 
+		* Uploaded : 09 Dec, 2010 
+		* http://www.openni.org/downloadfiles/openni-binaries/21-stable
+   		
+		[SensorKinect]
+		SensorKinect v0.2 
+		* Uploaded : 09 Dec, 2010
+		* https://github.com/avin2/SensorKinect
+
+	[New functions]
+
+	* Added mxNiIRImage
+		Gets IR images from Kinect
+
+	* Added mxNiConvertProjectiveToRealWorld
+		Converts pixel (u,v) of depth image and depth[mm] to world coordinate XYZ
+
+	* Added mxNiConvertRealWorldToProjective
+		Converts XYZ on world coordinate system to pixel (u,v) and depth value[mm]
+
+
+*** Version 1.0 ***
+	* Kinect MEX ver1.0 supports only the following OpenNI and SensorKinect driver
+
+	[Requirements]
+		[OpenNI]
+   		OpenNI Alpha Build for Windows v1.0.0.23
+		* Uploaded : 09 Dec, 2010
+		* http://www.openni.org/downloadfiles/openni-binaries/21-stable
+
+		[SensorKinect]
+   		SensorKinect v0.2
+		* Uploaded : 09 Dec, 2010
+ 		* https://github.com/avin2/SensorKinect
+
+	[Function]
+	* Created mxNiImage function
+		Gets rgb and depth images from Kinect
+
